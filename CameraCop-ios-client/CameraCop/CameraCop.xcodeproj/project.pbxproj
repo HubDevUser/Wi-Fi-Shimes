@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92AF4DB11F3F598600F87498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF4DB01F3F598600F87498 /* AppDelegate.swift */; };
+		92AF4DB31F3F598600F87498 /* stop@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 92AF4DB21F3F598600F87498 /* stop@2x.png */; };
+		92AF4DB61F3F598600F87498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4DB41F3F598600F87498 /* Main.storyboard */; };
+		92AF4DB81F3F598600F87498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4DB71F3F598600F87498 /* Assets.xcassets */; };
+		92AF4DBB1F3F598600F87498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4DB91F3F598600F87498 /* LaunchScreen.storyboard */; };
+		92AF4DC31F3F5E0500F87498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4DC21F3F5E0500F87498 /* Main.storyboard */; };
+		92AF4DCA1F3F67D900F87498 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF4DC91F3F67D900F87498 /* MainPresenter.swift */; };
+		92AF4DCE1F3F691700F87498 /* MMLANScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AF4DCD1F3F691700F87498 /* MMLANScanner.m */; };
+		92AF4DD31F3F698900F87498 /* LANProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AF4DD01F3F698900F87498 /* LANProperties.m */; };
+		92AF4DD41F3F698900F87498 /* MACOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AF4DD21F3F698900F87498 /* MACOperation.m */; };
+		92AF4DD91F3F699C00F87498 /* NetworkCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AF4DD61F3F699C00F87498 /* NetworkCalculator.m */; };
+		92AF4DDA1F3F699C00F87498 /* PingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AF4DD81F3F699C00F87498 /* PingOperation.m */; };
+		92AF4DDD1F3F69F500F87498 /* MMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AF4DDC1F3F69F500F87498 /* MMDevice.m */; };
+		92AF4DDF1F3F6A2400F87498 /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF4DDE1F3F6A2400F87498 /* DeviceCell.swift */; };
+		92AF4DE71F3F6A4A00F87498 /* MacFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AF4DE11F3F6A4A00F87498 /* MacFinder.m */; };
+		92AF4DE81F3F6A4A00F87498 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AF4DE61F3F6A4A00F87498 /* SimplePing.m */; };
+		92AF4DEA1F3F6A6000F87498 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92AF4DE91F3F6A6000F87498 /* data.plist */; };
+		92AF4DEC1F3F72EB00F87498 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF4DEB1F3F72EB00F87498 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92AF4DAD1F3F598600F87498 /* CameraCop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraCop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AF4DB01F3F598600F87498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92AF4DB21F3F598600F87498 /* stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop@2x.png"; sourceTree = "<group>"; };
+		92AF4DB51F3F598600F87498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92AF4DB71F3F598600F87498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92AF4DBA1F3F598600F87498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92AF4DBC1F3F598600F87498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92AF4DC21F3F5E0500F87498 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		92AF4DC91F3F67D900F87498 /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		92AF4DCB1F3F691600F87498 /* CameraCop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraCop-Bridging-Header.h"; sourceTree = "<group>"; };
+		92AF4DCC1F3F691700F87498 /* MMLANScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLANScanner.h; sourceTree = "<group>"; };
+		92AF4DCD1F3F691700F87498 /* MMLANScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLANScanner.m; sourceTree = "<group>"; };
+		92AF4DCF1F3F698900F87498 /* LANProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANProperties.h; sourceTree = "<group>"; };
+		92AF4DD01F3F698900F87498 /* LANProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LANProperties.m; sourceTree = "<group>"; };
+		92AF4DD11F3F698900F87498 /* MACOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACOperation.h; sourceTree = "<group>"; };
+		92AF4DD21F3F698900F87498 /* MACOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACOperation.m; sourceTree = "<group>"; };
+		92AF4DD51F3F699C00F87498 /* NetworkCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkCalculator.h; sourceTree = "<group>"; };
+		92AF4DD61F3F699C00F87498 /* NetworkCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkCalculator.m; sourceTree = "<group>"; };
+		92AF4DD71F3F699C00F87498 /* PingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingOperation.h; sourceTree = "<group>"; };
+		92AF4DD81F3F699C00F87498 /* PingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingOperation.m; sourceTree = "<group>"; };
+		92AF4DDB1F3F69F500F87498 /* MMDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDevice.h; sourceTree = "<group>"; };
+		92AF4DDC1F3F69F500F87498 /* MMDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDevice.m; sourceTree = "<group>"; };
+		92AF4DDE1F3F6A2400F87498 /* DeviceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
+		92AF4DE01F3F6A4A00F87498 /* MacFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacFinder.h; sourceTree = "<group>"; };
+		92AF4DE11F3F6A4A00F87498 /* MacFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacFinder.m; sourceTree = "<group>"; };
+		92AF4DE21F3F6A4A00F87498 /* if_arp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_arp.h; sourceTree = "<group>"; };
+		92AF4DE31F3F6A4A00F87498 /* if_ether.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_ether.h; sourceTree = "<group>"; };
+		92AF4DE41F3F6A4A00F87498 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		92AF4DE51F3F6A4A00F87498 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		92AF4DE61F3F6A4A00F87498 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		92AF4DE91F3F6A6000F87498 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		92AF4DEB1F3F72EB00F87498 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92AF4DAA1F3F598600F87498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92AF4DA41F3F598600F87498 = {
+			isa = PBXGroup;
+			children = (
+				92AF4DAF1F3F598600F87498 /* CameraCop */,
+				92AF4DAE1F3F598600F87498 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92AF4DAE1F3F598600F87498 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92AF4DAD1F3F598600F87498 /* CameraCop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92AF4DAF1F3F598600F87498 /* CameraCop */ = {
+			isa = PBXGroup;
+			children = (
+				92AF4DEB1F3F72EB00F87498 /* ViewController.swift */,
+				92AF4DE91F3F6A6000F87498 /* data.plist */,
+				92AF4DE01F3F6A4A00F87498 /* MacFinder.h */,
+				92AF4DE11F3F6A4A00F87498 /* MacFinder.m */,
+				92AF4DE21F3F6A4A00F87498 /* if_arp.h */,
+				92AF4DE31F3F6A4A00F87498 /* if_ether.h */,
+				92AF4DE41F3F6A4A00F87498 /* route.h */,
+				92AF4DE51F3F6A4A00F87498 /* SimplePing.h */,
+				92AF4DE61F3F6A4A00F87498 /* SimplePing.m */,
+				92AF4DDE1F3F6A2400F87498 /* DeviceCell.swift */,
+				92AF4DDB1F3F69F500F87498 /* MMDevice.h */,
+				92AF4DDC1F3F69F500F87498 /* MMDevice.m */,
+				92AF4DD51F3F699C00F87498 /* NetworkCalculator.h */,
+				92AF4DD61F3F699C00F87498 /* NetworkCalculator.m */,
+				92AF4DD71F3F699C00F87498 /* PingOperation.h */,
+				92AF4DD81F3F699C00F87498 /* PingOperation.m */,
+				92AF4DCF1F3F698900F87498 /* LANProperties.h */,
+				92AF4DD01F3F698900F87498 /* LANProperties.m */,
+				92AF4DD11F3F698900F87498 /* MACOperation.h */,
+				92AF4DD21F3F698900F87498 /* MACOperation.m */,
+				92AF4DCC1F3F691700F87498 /* MMLANScanner.h */,
+				92AF4DCD1F3F691700F87498 /* MMLANScanner.m */,
+				92AF4DB01F3F598600F87498 /* AppDelegate.swift */,
+				92AF4DB21F3F598600F87498 /* stop@2x.png */,
+				92AF4DB41F3F598600F87498 /* Main.storyboard */,
+				92AF4DB71F3F598600F87498 /* Assets.xcassets */,
+				92AF4DB91F3F598600F87498 /* LaunchScreen.storyboard */,
+				92AF4DC21F3F5E0500F87498 /* Main.storyboard */,
+				92AF4DBC1F3F598600F87498 /* Info.plist */,
+				92AF4DC91F3F67D900F87498 /* MainPresenter.swift */,
+				92AF4DCB1F3F691600F87498 /* CameraCop-Bridging-Header.h */,
+			);
+			path = CameraCop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92AF4DAC1F3F598600F87498 /* CameraCop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92AF4DBF1F3F598600F87498 /* Build configuration list for PBXNativeTarget "CameraCop" */;
+			buildPhases = (
+				92AF4DA91F3F598600F87498 /* Sources */,
+				92AF4DAA1F3F598600F87498 /* Frameworks */,
+				92AF4DAB1F3F598600F87498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraCop;
+			productName = CameraCop;
+			productReference = 92AF4DAD1F3F598600F87498 /* CameraCop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92AF4DA51F3F598600F87498 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Abdulrahim Charif";
+				TargetAttributes = {
+					92AF4DAC1F3F598600F87498 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 82KZRWTJUD;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 92AF4DA81F3F598600F87498 /* Build configuration list for PBXProject "CameraCop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92AF4DA41F3F598600F87498;
+			productRefGroup = 92AF4DAE1F3F598600F87498 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92AF4DAC1F3F598600F87498 /* CameraCop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92AF4DAB1F3F598600F87498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AF4DBB1F3F598600F87498 /* LaunchScreen.storyboard in Resources */,
+				92AF4DB81F3F598600F87498 /* Assets.xcassets in Resources */,
+				92AF4DB61F3F598600F87498 /* Main.storyboard in Resources */,
+				92AF4DEA1F3F6A6000F87498 /* data.plist in Resources */,
+				92AF4DC31F3F5E0500F87498 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92AF4DA91F3F598600F87498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AF4DD31F3F698900F87498 /* LANProperties.m in Sources */,
+				92AF4DDD1F3F69F500F87498 /* MMDevice.m in Sources */,
+				92AF4DDA1F3F699C00F87498 /* PingOperation.m in Sources */,
+				92AF4DE81F3F6A4A00F87498 /* SimplePing.m in Sources */,
+				92AF4DDF1F3F6A2400F87498 /* DeviceCell.swift in Sources */,
+				92AF4DCE1F3F691700F87498 /* MMLANScanner.m in Sources */,
+				92AF4DB31F3F598600F87498 /* stop@2x.png in Sources */,
+				92AF4DD91F3F699C00F87498 /* NetworkCalculator.m in Sources */,
+				92AF4DEC1F3F72EB00F87498 /* ViewController.swift in Sources */,
+				92AF4DD41F3F698900F87498 /* MACOperation.m in Sources */,
+				92AF4DE71F3F6A4A00F87498 /* MacFinder.m in Sources */,
+				92AF4DCA1F3F67D900F87498 /* MainPresenter.swift in Sources */,
+				92AF4DB11F3F598600F87498 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92AF4DB41F3F598600F87498 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92AF4DB51F3F598600F87498 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92AF4DB91F3F598600F87498 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92AF4DBA1F3F598600F87498 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92AF4DBD1F3F598600F87498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92AF4DBE1F3F598600F87498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92AF4DC01F3F598600F87498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 82KZRWTJUD;
+				INFOPLIST_FILE = CameraCop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WiFiShimes.CameraCop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CameraCop/CameraCop-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		92AF4DC11F3F598600F87498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 82KZRWTJUD;
+				INFOPLIST_FILE = CameraCop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WiFiShimes.CameraCop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CameraCop/CameraCop-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92AF4DA81F3F598600F87498 /* Build configuration list for PBXProject "CameraCop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AF4DBD1F3F598600F87498 /* Debug */,
+				92AF4DBE1F3F598600F87498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92AF4DBF1F3F598600F87498 /* Build configuration list for PBXNativeTarget "CameraCop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AF4DC01F3F598600F87498 /* Debug */,
+				92AF4DC11F3F598600F87498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92AF4DA51F3F598600F87498 /* Project object */;
+}
