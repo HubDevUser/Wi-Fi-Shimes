@@ -1,2 +1,2 @@
 # Wi-Fi-Shimes
-IoT enabled Intrusion Detection System
+IoT enabled Intrusion Detection System (See Wiki for details)
